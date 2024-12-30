@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Kumar Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #0a0a0a;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        header img {
+            height: 150px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #4c57af;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+        }
+        .projects, .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 2rem);
+        }
+        footer {
+            background: #161515;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .download-button {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .contact-buttons button {
+            background-color: #5a7710;
+            color: #823737;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .download-button a {
+            background-color: #4c57af;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .download-button a:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-photo/3d-rendering-kid-playing-digital-game_23-2150898494.jpg?t=st=1735337437~exp=1735341037~hmac=3b03e703b922406f8c7fa7ae8eab31ecec8ea95e5ac94edf4ccb0c38a40ec85b&w=740" alt="Logo">
+        <div><h1>Mr. Shashank Singh</h1>
+        <h4>   The developer</h4></div>
+        
+        
+    </header>
+    
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Shashank singh, a final-year B.Tech student at NIT Patna. I'm passionate about solving real-world problems through technology and have a keen interest in structured innovation and design thinking. My goal is to make a positive impact through my skills and creativity.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="card">
+                    <h3>Technical Skills</h3>
+                    <p>Data Structures, Algorithms, Computer Networking, Web Technology, Operating Systems, DBMS, Machine Learning, SQL, Big Data, NoSQL</p>
+                </div>
+                <div class="card">
+                    <h3>Programming Languages</h3>
+                    <p>C++, Python, Java, JavaScript</p>
+                </div>
+                <div class="card">
+                    <h3>Technologies and Libraries</h3>
+                    <p>React, Node, Angular, MongoDB, IoT</p>
+                </div>
+                <div class="card">
+                    <h3>Soft Skills</h3>
+                    <p>Problem-solving, Troubleshooting, Analytical skills, Critical thinking, Communication, Teamwork</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Project: YouTube Backend</h3>
+                    <p>A personal YouTube-like backend application with features like user authentication, video uploads, and playlist management using MongoDB and Cloudinary. <a href="https://github.com/idolshashank/youtube_backend">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Project: Currency Converter</h3>
+                    <p>A front-end application for real-time currency conversion using APIs, built with React.js. <a href="https://github.com/idolshashank/Currency-convt.git">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Project: Jarvis AI</h3>
+                    <p>A personal chatbot capable of solving problems, entertaining, and automating tasks, developed with OpenAI and Speech Recognition libraries. <a href="https://github.com/idolshashank/jarvisAi/blob/main/main.py">View on GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Solved 800+ questions on Data Structures and Algorithms across platforms like GeeksforGeeks and LeetCode. <a href="https://idolshashank.github.io/coding_profiles/">View Profiles</a></li>
+                <li>Certified in Data Structures, Algorithms, and Competitive Programming by GeeksforGeeks. <a href="https://media.geeksforgeeks.org/courses/certificates/bef59c09fbb6dbd556624cd002ea42c9.pdf">Certificate</a></li>
+                <li>Elite+Silver certifications in Python, IoT, and Cloud Computing from NPTEL.</li>
+                <li>Completed "Master in Data Science using Python" course from Udemy. <a href="http://ude.my/UC-da81c10b-e919-4785-aabc-4f97c8bcd7a8">Certificate</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-buttons">
+                <button><a href="mailto:shashankkumar1117@gmail.com">Email</a></button>
+                <button><a href="https://www.linkedin.com/in/shashank-kumar-1375531a2/">LinkedIn</a></button>
+                <button><a href="https://github.com/idolshashank">GitHub</a></button>
+                <button><a href="https://drive.google.com/uc?export=download&id=1F5xrkF1WWAJGsEXVMGlnSeBLJx5eogt2" download>Download Resume</a></button>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shashank Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
